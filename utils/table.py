@@ -30,7 +30,7 @@ class Table:
 
     def assign_seat(self, name: str):
         if not self.has_free_spot():
-            print('This table is full!')
+            print("This table is full!")
             return False
         for seat in self.seats:
             if seat.free:
@@ -41,7 +41,6 @@ class Table:
     def left_capacity(self) -> int:
         return sum(1 for seat in self.seats if seat.free)
 
-    
     # TODO: This is for debugging purpose. Delete later
     def _inspect(self):
         return [seat.occupant for seat in self.seats]
