@@ -19,7 +19,7 @@ class Seat:
 
 class Table:
     def __init__(self) -> None:
-        self.capacity = 6
+        self.capacity = 4
         self.seats = [Seat() for _ in range(self.capacity)]
 
     def __str__(self) -> str:
