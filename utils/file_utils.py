@@ -5,9 +5,3 @@ def file_utils(file_path):
             list_colleagues = my_file.read()
             print(list_colleagues)
     return list_colleagues
-    
-    
-        
- 
-
-file_utils('./utils/colleagues.csv')
