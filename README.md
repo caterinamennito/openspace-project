@@ -17,6 +17,8 @@ OpenSpace Organizer is a Python project designed to randomly assign colleagues t
    git clone https://github.com/caterinamennito/openspace-project/.git
    cd openspace-project
    ```
+   Run with Python 3: 
+   ```python main.py```
 
 
 ---
